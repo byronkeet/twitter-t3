@@ -5,7 +5,7 @@ import React from 'react'
 const SideNav = () => {
 	const session = useSession();
 	const user = session?.data?.user;
-	console.log(user);
+
 	return (
 		<nav className="sticky top-0 px-2 py-4">
 			<ul className='flex flex-col items-start gap-2 whitespace-nowrap'>
